@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Modern Business — Landing</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- NAV -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#">NovaStudio</a>
+
+      <!-- Desktop / Tablet nav -->
+      <nav class="nav desktop-nav">
+        <a href="#services">Services</a>
+        <a href="#products">Products</a>
+        <a href="#about">About</a>
+        <a href="#contact" class="cta">Get Started</a>
+      </nav>
+
+      <!-- Mobile hamburger -->
+      <button class="hamburger" aria-label="Open menu" aria-expanded="false">
+        <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+      </button>
+    </div>
+
+    <!-- Mobile menu (slides down) -->
+    <div class="mobile-menu" aria-hidden="true">
+      <nav class="nav mobile-nav">
+        <a href="#services">Services</a>
+        <a href="#products">Products</a>
+        <a href="#about">About</a>
+        <a href="#contact" class="cta">Get Started</a>
+      </nav>
+      <div class="mobile-info">
+        <p>Call us: <strong>+27 11 123 4567</strong></p>
+        <p>Email: <strong>hello@novastudio.com</strong></p>
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <h1>Design that sells — digital experiences crafted with care</h1>
+          <p class="lead">
+            We build polished, conversion-focused websites and product pages — modern, fast, and delightful.
+          </p>
+          <div class="hero-ctas">
+            <a class="btn primary" href="#products">See Products</a>
+            <a class="btn ghost" href="#contact">Contact Us</a>
+          </div>
+        </div>
+
+        <div class="hero-art">
+          <!-- subtle animated shapes for visual appeal -->
+          <div class="floating-card">
+            <div class="glass-card tilt-card">
+              <img src="https://via.placeholder.com/420x260.png?text=Product+Hero" alt="product hero" />
+              <div class="card-info">
+                <h4>Signature Pack</h4>
+                <p>Premium experience package</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section id="services" class="section services">
+      <div class="container">
+        <h2 class="section-title">What we do</h2>
+        <div class="services-grid">
+          <div class="service">
+            <h3>Branding & UI</h3>
+            <p>Research-driven visual systems and pixel-perfect UI.</p>
+          </div>
+          <div class="service">
+            <h3>Landing Pages</h3>
+            <p>High-converting pages built with performance and style.</p>
+          </div>
+          <div class="service">
+            <h3>Micro-interactions</h3>
+            <p>Delightful animations and interactive elements that guide users.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PRODUCTS -->
+    <section id="products" class="section products">
+      <div class="container">
+        <h2 class="section-title">Featured products</h2>
+
+        <!-- product grid -->
+        <div class="products-grid">
+          <!-- Repeatable card -->
+          <article class="product tilt-card" tabindex="0">
+            <div class="product-media">
+              <img src="https://via.placeholder.com/420x300.png?text=Product+1" alt="Product 1" />
+            </div>
+            <div class="product-body">
+              <h3>Aurora Speaker</h3>
+              <p>Immersive sound with elegant design.</p>
+              <div class="price">From <strong>R1,299</strong></div>
+              <button class="btn small">Buy now</button>
+            </div>
+          </article>
+
+          <article class="product tilt-card" tabindex="0">
+            <div class="product-media">
+              <img src="https://via.placeholder.com/420x300.png?text=Product+2" alt="Product 2" />
+            </div>
+            <div class="product-body">
+              <h3>Luma Headset</h3>
+              <p>Comfort-first design for long sessions.</p>
+              <div class="price">From <strong>R899</strong></div>
+              <button class="btn small">Buy now</button>
+            </div>
+          </article>
+
+          <article class="product tilt-card" tabindex="0">
+            <div class="product-media">
+              <img src="https://via.placeholder.com/420x300.png?text=Product+3" alt="Product 3" />
+            </div>
+            <div class="product-body">
+              <h3>Flow Lamp</h3>
+              <p>Ambient light with app controls.</p>
+              <div class="price">From <strong>R499</strong></div>
+              <button class="btn small">Buy now</button>
+            </div>
+          </article>
+
+          <article class="product tilt-card" tabindex="0">
+            <div class="product-media">
+              <img src="https://via.placeholder.com/420x300.png?text=Product+4" alt="Product 4" />
+            </div>
+            <div class="product-body">
+              <h3>Pulse Charger</h3>
+              <p>Fast, stylish, and compact power.</p>
+              <div class="price">From <strong>R299</strong></div>
+              <button class="btn small">Buy now</button>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section about">
+      <div class="container about-grid">
+        <div>
+          <h2 class="section-title">About NovaStudio</h2>
+          <p>We design product-first websites and landing pages that convert — with clean layouts, thoughtful animation, and accessible UX. Our focus is on results and delightful details.</p>
+        </div>
+        <div class="about-stats">
+          <div class="stat">
+            <strong>120+</strong>
+            <span>Projects</span>
+          </div>
+          <div class="stat">
+            <strong>45</strong>
+            <span>Happy clients</span>
+          </div>
+          <div class="stat">
+            <strong>5y</strong>
+            <span>Experience</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT / CTA -->
+    <section id="contact" class="section cta-section">
+      <div class="container cta-grid">
+        <h2>Ready to start your project?</h2>
+        <p>Send a message and we'll get back to you in 1 business day.</p>
+        <a class="btn primary large" href="mailto:hello@novastudio.com">Contact Us</a>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>© <span id="year"></span> NovaStudio — All rights reserved.</div>
+        <div>Built with HTML, CSS & JavaScript</div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
